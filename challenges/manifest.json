@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "daily": {
+    "id": "daily-2026-10-21",
+    "title": "Daily",
+    "image": "images/daily-2026-10-21.jpg",
+    "preview": "previews/daily-2026-10-21.jpg",
+    "pieces": 48,
+    "seed": 210102026,
+    "cut": "classic",
+    "rotationQuarterTurns": 0
+  },
+  "weekly": {
+    "id": "weekly-2026-w43",
+    "title": "Weekly",
+    "image": "images/weekly-2026-w43.jpg",
+    "preview": "previews/weekly-2026-w43.jpg",
+    "pieces": 250,
+    "seed": 430102026,
+    "cut": "organic",
+    "rotationQuarterTurns": 0
+  },
+  "monthly": {
+    "id": "monthly-2026-10",
+    "title": "October Monster",
+    "image": "images/monthly-2026-10.jpg",
+    "preview": "previews/monthly-2026-10.jpg",
+    "pieces": 3000,
+    "seed": 1020263000,
+    "cut": "classic",
+    "rotationQuarterTurns": 0
+  }
+}
