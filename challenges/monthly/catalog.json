@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "monthly-2026-09",
+      "title": "September Monster",
+      "period": "2026-09",
+      "downloadFrom": "2026-09-01T00:00:00+03:00",
+      "downloadUntil": "2026-10-01T00:00:00+03:00",
+      "image": "images/monthly-2026-09.jpg",
+      "pieces": 2000,
+      "seed": 920262000,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "monthly-2026-10",
+      "title": "October Monster",
+      "period": "2026-10",
+      "downloadFrom": "2026-10-01T00:00:00+03:00",
+      "downloadUntil": "2026-11-01T00:00:00+02:00",
+      "image": "images/monthly-2026-10.jpg",
+      "pieces": 3000,
+      "seed": 1020263000,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    }
+  ]
+}

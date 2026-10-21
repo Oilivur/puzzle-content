@@ -3,31 +3,40 @@
   "daily": {
     "id": "daily-2026-10-21",
     "title": "Daily",
-    "image": "images/daily-2026-10-21.jpg",
-    "preview": "previews/daily-2026-10-21.jpg",
+    "period": "2026-10-21",
+    "downloadFrom": "2026-10-21T00:00:00+03:00",
+    "downloadUntil": "2026-10-22T00:00:00+03:00",
+    "image": "daily/images/daily-2026-10-21.jpg",
     "pieces": 48,
     "seed": 210102026,
     "cut": "classic",
+    "cutVersion": 1,
     "rotationQuarterTurns": 0
   },
   "weekly": {
     "id": "weekly-2026-w43",
-    "title": "Weekly",
-    "image": "images/weekly-2026-w43.jpg",
-    "preview": "previews/weekly-2026-w43.jpg",
+    "title": "Weekly 43",
+    "period": "2026-W43",
+    "downloadFrom": "2026-10-19T00:00:00+03:00",
+    "downloadUntil": "2026-10-26T00:00:00+02:00",
+    "image": "weekly/images/weekly-2026-w43.jpg",
     "pieces": 250,
     "seed": 430102026,
     "cut": "organic",
+    "cutVersion": 1,
     "rotationQuarterTurns": 0
   },
   "monthly": {
     "id": "monthly-2026-10",
     "title": "October Monster",
-    "image": "images/monthly-2026-10.jpg",
-    "preview": "previews/monthly-2026-10.jpg",
+    "period": "2026-10",
+    "downloadFrom": "2026-10-01T00:00:00+03:00",
+    "downloadUntil": "2026-11-01T00:00:00+02:00",
+    "image": "monthly/images/monthly-2026-10.jpg",
     "pieces": 3000,
     "seed": 1020263000,
     "cut": "classic",
+    "cutVersion": 1,
     "rotationQuarterTurns": 0
   }
 }

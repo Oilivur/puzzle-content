@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "weekly-2026-w42",
+      "title": "Weekly 42",
+      "period": "2026-W42",
+      "downloadFrom": "2026-10-12T00:00:00+03:00",
+      "downloadUntil": "2026-10-19T00:00:00+03:00",
+      "image": "images/weekly-2026-w42.jpg",
+      "pieces": 100,
+      "seed": 420102026,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "weekly-2026-w43",
+      "title": "Weekly 43",
+      "period": "2026-W43",
+      "downloadFrom": "2026-10-19T00:00:00+03:00",
+      "downloadUntil": "2026-10-26T00:00:00+02:00",
+      "image": "images/weekly-2026-w43.jpg",
+      "pieces": 250,
+      "seed": 430102026,
+      "cut": "organic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "daily-2026-10-19",
+      "title": "Daily",
+      "period": "2026-10-19",
+      "downloadFrom": "2026-10-19T00:00:00+03:00",
+      "downloadUntil": "2026-10-20T00:00:00+03:00",
+      "image": "images/daily-2026-10-19.jpg",
+      "pieces": 24,
+      "seed": 190102026,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "daily-2026-10-20",
+      "title": "Daily",
+      "period": "2026-10-20",
+      "downloadFrom": "2026-10-20T00:00:00+03:00",
+      "downloadUntil": "2026-10-21T00:00:00+03:00",
+      "image": "images/daily-2026-10-20.jpg",
+      "pieces": 48,
+      "seed": 200102026,
+      "cut": "angular",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "daily-2026-10-21",
+      "title": "Daily",
+      "period": "2026-10-21",
+      "downloadFrom": "2026-10-21T00:00:00+03:00",
+      "downloadUntil": "2026-10-22T00:00:00+03:00",
+      "image": "images/daily-2026-10-21.jpg",
+      "pieces": 48,
+      "seed": 210102026,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    }
+  ]
+}
