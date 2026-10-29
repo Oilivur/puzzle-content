@@ -1,0 +1,24 @@
+{
+  "timezone": "Europe/Tallinn",
+  "defaults": {
+    "daily": {
+      "pieces": 48,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    "weekly": {
+      "pieces": 250,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    "monthly": {
+      "pieces": 3000,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    }
+  },
+  "overrides": {}
+}

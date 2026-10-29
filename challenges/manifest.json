@@ -8,7 +8,7 @@
     "downloadUntil": "2026-10-30T00:00:00+02:00",
     "image": "daily/images/daily-2026-10-29.jpg",
     "pieces": 48,
-    "seed": 290132026,
+    "seed": 215494548,
     "cut": "classic",
     "cutVersion": 1,
     "rotationQuarterTurns": 0
@@ -21,7 +21,7 @@
     "downloadUntil": "2026-11-02T00:00:00+02:00",
     "image": "weekly/images/weekly-2026-w44.jpg",
     "pieces": 250,
-    "seed": 431202026,
+    "seed": 430402026,
     "cut": "organic",
     "cutVersion": 1,
     "rotationQuarterTurns": 0
@@ -33,7 +33,7 @@
     "downloadFrom": "2026-10-01T00:00:00+03:00",
     "downloadUntil": "2026-11-01T00:00:00+02:00",
     "image": "monthly/images/monthly-2026-10.jpg",
-    "pieces": 3000,
+    "pieces": 1000,
     "seed": 1020263000,
     "cut": "classic",
     "cutVersion": 1,

@@ -1,0 +1,54 @@
+name: Build challenge catalogs and manifest
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "challenges/daily/images/**"
+      - "challenges/weekly/images/**"
+      - "challenges/monthly/images/**"
+      - "challenges/challenge_settings.json"
+      - "scripts/build_challenges.py"
+
+  schedule:
+    - cron: "5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Generate challenge data
+        run: python scripts/build_challenges.py
+
+      - name: Commit generated files if changed
+        run: |
+          git config user.name "Puzzle Parlour Bot"
+          git config user.email "actions@github.com"
+
+          git add challenges/manifest.json
+          git add challenges/daily/catalog.json
+          git add challenges/weekly/catalog.json
+          git add challenges/monthly/catalog.json
+
+          if git diff --cached --quiet; then
+            echo "Challenge files are already current"
+            exit 0
+          fi
+
+          git commit -m "Update challenge content"
+          git push
