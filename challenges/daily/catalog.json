@@ -39,6 +39,58 @@
       "cut": "classic",
       "cutVersion": 1,
       "rotationQuarterTurns": 0
+    },
+    {
+      "id": "daily-2026-10-29",
+      "title": "Daily",
+      "period": "2026-10-29",
+      "downloadFrom": "2026-10-29T00:00:00+02:00",
+      "downloadUntil": "2026-10-30T00:00:00+02:00",
+      "image": "images/daily-2026-10-29.jpg",
+      "pieces": 48,
+      "seed": 290102026,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "daily-2026-10-30",
+      "title": "Daily",
+      "period": "2026-10-30",
+      "downloadFrom": "2026-10-30T00:00:00+02:00",
+      "downloadUntil": "2026-10-31T00:00:00+02:00",
+      "image": "images/daily-2026-10-30.jpg",
+      "pieces": 48,
+      "seed": 300102026,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "daily-2026-10-31",
+      "title": "Daily",
+      "period": "2026-10-31",
+      "downloadFrom": "2026-10-31T00:00:00+02:00",
+      "downloadUntil": "2026-11-01T00:00:00+02:00",
+      "image": "images/daily-2026-10-31.jpg",
+      "pieces": 48,
+      "seed": 310102026,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "daily-2026-11-01",
+      "title": "Daily",
+      "period": "2026-11-01",
+      "downloadFrom": "2026-11-01T00:00:00+02:00",
+      "downloadUntil": "2026-11-02T00:00:00+02:00",
+      "image": "images/daily-2026-11-01.jpg",
+      "pieces": 48,
+      "seed": 110102026,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
     }
   ]
 }
