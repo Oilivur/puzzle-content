@@ -1,14 +1,14 @@
 {
   "version": 1,
   "daily": {
-    "id": "daily-2026-10-30",
+    "id": "daily-2026-10-31",
     "title": "Daily",
-    "period": "2026-10-30",
-    "downloadFrom": "2026-10-30T00:00:00+02:00",
-    "downloadUntil": "2026-10-31T00:00:00+02:00",
-    "image": "daily/images/daily-2026-10-30.jpg",
-    "pieces": 24,
-    "seed": 1813057191,
+    "period": "2026-10-31",
+    "downloadFrom": "2026-10-31T00:00:00+02:00",
+    "downloadUntil": "2026-11-01T00:00:00+02:00",
+    "image": "daily/images/daily-2026-10-31.jpg",
+    "pieces": 48,
+    "seed": 227359930,
     "cut": "classic",
     "cutVersion": 1,
     "rotationQuarterTurns": 0
