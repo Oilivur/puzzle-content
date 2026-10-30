@@ -21,7 +21,7 @@
       "downloadFrom": "2026-10-01T00:00:00+03:00",
       "downloadUntil": "2026-11-01T00:00:00+02:00",
       "image": "images/monthly-2026-10.jpg",
-      "pieces": 1000,
+      "pieces": 24,
       "seed": 1020263000,
       "cut": "classic",
       "cutVersion": 1,

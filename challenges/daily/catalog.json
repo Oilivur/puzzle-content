@@ -60,7 +60,7 @@
       "downloadFrom": "2026-10-30T00:00:00+02:00",
       "downloadUntil": "2026-10-31T00:00:00+02:00",
       "image": "images/daily-2026-10-30.jpg",
-      "pieces": 48,
+      "pieces": 24,
       "seed": 1813057191,
       "cut": "classic",
       "cutVersion": 1,

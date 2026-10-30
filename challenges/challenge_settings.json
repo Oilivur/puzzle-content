@@ -20,5 +20,17 @@
       "rotationQuarterTurns": 0
     }
   },
-  "overrides": {}
+  "overrides": {
+    "daily-2026-10-30": {
+      "pieces": 24
+    },
+
+    "weekly-2026-w44": {
+      "pieces": 24
+    },
+
+    "monthly-2026-10": {
+      "pieces": 24
+    }
+  }
 }
