@@ -1,6 +1,5 @@
 {
   "version": 1,
-<<<<<<< HEAD
   "daily": {
     "id": "daily-2026-11-02",
     "title": "Daily",
@@ -14,9 +13,6 @@
     "cutVersion": 1,
     "rotationQuarterTurns": 0
   },
-=======
-  "daily": null,
->>>>>>> 9a273f0aba1c80513389883a18cb308f2ab91949
   "weekly": {
     "id": "weekly-2026-w45",
     "title": "Weekly 45",
@@ -30,7 +26,6 @@
     "cutVersion": 1,
     "rotationQuarterTurns": 0
   },
-<<<<<<< HEAD
   "monthly": {
     "id": "monthly-2026-11",
     "title": "November",
@@ -44,7 +39,4 @@
     "cutVersion": 1,
     "rotationQuarterTurns": 0
   }
-=======
-  "monthly": null
->>>>>>> 9a273f0aba1c80513389883a18cb308f2ab91949
 }
