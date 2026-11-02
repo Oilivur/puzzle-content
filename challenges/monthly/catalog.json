@@ -26,6 +26,19 @@
       "cut": "classic",
       "cutVersion": 1,
       "rotationQuarterTurns": 0
+    },
+    {
+      "id": "monthly-2026-11",
+      "title": "November",
+      "period": "2026-11",
+      "downloadFrom": "2026-11-01T00:00:00+02:00",
+      "downloadUntil": "2026-12-01T00:00:00+02:00",
+      "image": "images/monthly-2026-11.jpg",
+      "pieces": 3000,
+      "seed": 1859528343,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
     }
   ]
 }
