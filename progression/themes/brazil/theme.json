@@ -1,0 +1,59 @@
+{
+  "id": "brazil",
+  "title": "Brazil",
+  "master": {
+    "image": "master.jpg",
+    "pieces": 500,
+    "seed": 91024002,
+    "rewardSeed": 91024239,
+    "rotationQuarterTurns": 0,
+    "cut": "classic"
+  },
+  "levels": [
+    {
+      "id": "brazil_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 48,
+      "seed": 96622221,
+      "masterRewardPieces": 50,
+      "cut": "classic"
+    },
+    {
+      "id": "brazil_02",
+      "level": 2,
+      "image": "levels/02.jpg",
+      "pieces": 48,
+      "seed": 77077012,
+      "masterRewardPieces": 100,
+      "cut": "classic"
+    },
+    {
+      "id": "brazil_03",
+      "level": 3,
+      "image": "levels/03.jpg",
+      "pieces": 100,
+      "seed": 21077342,
+      "masterRewardPieces": 150,
+      "cut": "classic"
+    },
+    {
+      "id": "brazil_04",
+      "level": 4,
+      "image": "levels/04.jpg",
+      "pieces": 100,
+      "seed": 11324012,
+      "masterRewardPieces": 150,
+      "cut": "classic"
+    },
+    {
+      "id": "brazil_05",
+      "level": 5,
+      "image": "levels/05.jpg",
+      "pieces": 250,
+      "seed": 88883415,
+      "masterRewardPieces": 50,
+      "cut": "classic"
+    }
+  ]
+}

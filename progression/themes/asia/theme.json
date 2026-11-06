@@ -1,0 +1,50 @@
+{
+  "id": "asia",
+  "title": "Asia",
+  "master": {
+    "image": "master.jpg",
+    "pieces": 100,
+    "seed": 91224771,
+    "rewardSeed": 21024999,
+    "rotationQuarterTurns": 0,
+    "cut": "classic"
+  },
+  "levels": [
+    {
+      "id": "asia_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 24,
+      "seed": 93324011,
+      "masterRewardPieces": 6,
+      "cut": "classic"
+    },
+    {
+      "id": "asia_02",
+      "level": 2,
+      "image": "levels/02.jpg",
+      "pieces": 48,
+      "seed": 93334012,
+      "masterRewardPieces": 12,
+      "cut": "classic"
+    },
+    {
+      "id": "asia_03",
+      "level": 3,
+      "image": "levels/03.jpg",
+      "pieces": 100,
+      "seed": 45624013,
+      "masterRewardPieces": 34,
+      "cut": "classic"
+    },
+    {
+      "id": "asia_04",
+      "level": 4,
+      "image": "levels/04.jpg",
+      "pieces": 250,
+      "seed": 91234014,
+      "masterRewardPieces": 48,
+      "cut": "classic"
+    }
+  ]
+}
