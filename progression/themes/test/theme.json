@@ -1,0 +1,23 @@
+{
+  "id": "test",
+  "title": "Test",
+  "master": {
+    "image": "master.jpg",
+    "pieces": 48,
+    "seed": 91024002,
+    "rewardSeed": 91024239,
+    "rotationQuarterTurns": 0,
+    "cut": "classic"
+  },
+  "levels": [
+    {
+      "id": "test_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 48,
+      "seed": 96622221,
+      "masterRewardPieces": 48,
+      "cut": "wavy"
+    }
+  ]
+}

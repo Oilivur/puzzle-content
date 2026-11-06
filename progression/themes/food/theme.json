@@ -1,0 +1,59 @@
+{
+  "id": "food",
+  "title": "Food",
+  "master": {
+    "image": "master.jpg",
+    "pieces": 500,
+    "seed": 91673002,
+    "rewardSeed": 91024239,
+    "rotationQuarterTurns": 0,
+    "cut": "classic"
+  },
+  "levels": [
+    {
+      "id": "food_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 48,
+      "seed": 26642221,
+      "masterRewardPieces": 50,
+      "cut": "classic"
+    },
+    {
+      "id": "food_02",
+      "level": 2,
+      "image": "levels/02.jpg",
+      "pieces": 48,
+      "seed": 77077888,
+      "masterRewardPieces": 100,
+      "cut": "classic"
+    },
+    {
+      "id": "food_03",
+      "level": 3,
+      "image": "levels/03.jpg",
+      "pieces": 100,
+      "seed": 21077882,
+      "masterRewardPieces": 150,
+      "cut": "classic"
+    },
+    {
+      "id": "food_04",
+      "level": 4,
+      "image": "levels/04.jpg",
+      "pieces": 100,
+      "seed": 12344012,
+      "masterRewardPieces": 150,
+      "cut": "classic"
+    },
+    {
+      "id": "food_05",
+      "level": 5,
+      "image": "levels/05.jpg",
+      "pieces": 250,
+      "seed": 82283415,
+      "masterRewardPieces": 50,
+      "cut": "classic"
+    }
+  ]
+}
