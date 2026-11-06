@@ -1,0 +1,41 @@
+{
+  "id": "estonia",
+  "title": "Estonia",
+  "master": {
+    "image": "master.png",
+    "pieces": 100,
+    "seed": 91604571,
+    "rewardSeed": 21045679,
+    "rotationQuarterTurns": 0,
+    "cut": "classic"
+  },
+  "levels": [
+    {
+      "id": "estonia_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 24,
+      "seed": 32224011,
+      "masterRewardPieces": 25,
+      "cut": "classic"
+    },
+    {
+      "id": "estonia_02",
+      "level": 2,
+      "image": "levels/02.jpg",
+      "pieces": 48,
+      "seed": 93334333,
+      "masterRewardPieces": 60,
+      "cut": "classic"
+    },
+    {
+      "id": "estonia_03",
+      "level": 3,
+      "image": "levels/03.jpg",
+      "pieces": 100,
+      "seed": 43324013,
+      "masterRewardPieces": 15,
+      "cut": "classic"
+    }
+  ]
+}
