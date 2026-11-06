@@ -12,13 +12,16 @@ on:
       - "challenges/monthly/images/**"
       - "challenges/challenge_settings.json"
       - "scripts/build_challenges.py"
+      - ".github/workflows/build-challenges.yml"
 
-  schedule:
-    - cron: "15 0 * * *"
-      timezone: "Europe/Tallinn"
-
+# No hourly/daily schedule: future puzzles are published on push, and the
+# Android app unlocks them using each player's device-local calendar date.
 permissions:
   contents: write
+
+concurrency:
+  group: puzzle-challenge-catalogs
+  cancel-in-progress: false
 
 jobs:
   build:
