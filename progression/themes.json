@@ -7,6 +7,8 @@
     "themes/europe/theme.json",
     "themes/food/theme.json",
     "themes/test/theme.json",
-    "themes/ancient/theme.json"
+    "themes/ancient/theme.json",
+    "themes/oldtown/theme.json",
+    "themes/castle/theme.json"
   ]
 }

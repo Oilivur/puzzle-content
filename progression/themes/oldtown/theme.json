@@ -1,0 +1,50 @@
+{
+  "id": "oldtown",
+  "title": "Old Town",
+  "master": {
+    "image": "master.jpg",
+    "pieces": 250,
+    "seed": 55324749,
+    "rewardSeed": 77937913,
+    "rotationQuarterTurns": 0,
+    "cut": "wavy"
+  },
+  "levels": [
+    {
+      "id": "oldtown_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 48,
+      "seed": 43324044,
+      "masterRewardPieces": 75,
+      "cut": "wavy"
+    },
+    {
+      "id": "oldtown_02",
+      "level": 2,
+      "image": "levels/02.jpg",
+      "pieces": 48,
+      "seed": 13334012,
+      "masterRewardPieces": 75,
+      "cut": "classic"
+    },
+    {
+      "id": "oldtown_03",
+      "level": 3,
+      "image": "levels/03.jpg",
+      "pieces": 100,
+      "seed": 45624013,
+      "masterRewardPieces": 75,
+      "cut": "classic"
+    },
+    {
+      "id": "oldtown_04",
+      "level": 4,
+      "image": "levels/04.jpg",
+      "pieces": 250,
+      "seed": 12234014,
+      "masterRewardPieces": 25,
+      "cut": "u-knob"
+    }
+  ]
+}

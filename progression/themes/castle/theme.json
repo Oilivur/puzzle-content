@@ -1,0 +1,68 @@
+{
+  "id": "castle",
+  "title": "Castle",
+  "master": {
+    "image": "master.jpg",
+    "pieces": 250,
+    "seed": 56320741,
+    "rewardSeed": 66637999,
+    "rotationQuarterTurns": 0,
+    "cut": "u-knob"
+  },
+  "levels": [
+    {
+      "id": "castle_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 48,
+      "seed": 78324044,
+      "masterRewardPieces": 15,
+      "cut": "classic"
+    },
+    {
+      "id": "castle_02",
+      "level": 2,
+      "image": "levels/02.jpg",
+      "pieces": 48,
+      "seed": 11134012,
+      "masterRewardPieces": 45,
+      "cut": "wavy"
+    },
+    {
+      "id": "castle_03",
+      "level": 3,
+      "image": "levels/03.jpg",
+      "pieces": 100,
+      "seed": 47724003,
+      "masterRewardPieces": 40,
+      "cut": "classic"
+    },
+    {
+      "id": "castle_04",
+      "level": 4,
+      "image": "levels/04.jpg",
+      "pieces": 100,
+      "seed": 10034012,
+      "masterRewardPieces": 75,
+      "cut": "u-knob"
+    },
+    {
+      "id": "castle_05",
+      "level": 5,
+      "image": "levels/05.jpg",
+      "pieces": 250,
+      "seed": 79234124,
+      "masterRewardPieces": 25,
+      "cut": "classic"
+    },
+    {
+      "id": "castle_06",
+      "level": 6,
+      "image": "levels/06.jpg",
+      "pieces": 250,
+      "seed": 16334212,
+      "masterRewardPieces": 50,
+      "cut": "wavy"
+    }
+  ]
+}
