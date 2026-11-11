@@ -3,32 +3,6 @@
   "dateBasis": "device-local",
   "items": [
     {
-      "id": "weekly-2026-w44",
-      "title": "Weekly 44",
-      "period": "2026-W44",
-      "startsOn": "2026-10-26",
-      "endsBefore": "2026-11-02",
-      "image": "images/weekly-2026-w44.jpg",
-      "pieces": 24,
-      "seed": 430402026,
-      "cut": "wavy",
-      "cutVersion": 1,
-      "rotationQuarterTurns": 0
-    },
-    {
-      "id": "weekly-2026-w45",
-      "title": "Weekly 45",
-      "period": "2026-W45",
-      "startsOn": "2026-11-02",
-      "endsBefore": "2026-11-09",
-      "image": "images/weekly-2026-w45.jpg",
-      "pieces": 250,
-      "seed": 432302026,
-      "cut": "wavy",
-      "cutVersion": 1,
-      "rotationQuarterTurns": 0
-    },
-    {
       "id": "weekly-2026-w46",
       "title": "Weekly 46",
       "period": "2026-W46",
@@ -89,6 +63,32 @@
       "image": "images/weekly-2026-w50.jpg",
       "pieces": 250,
       "seed": 1980151484,
+      "cut": "wavy",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "weekly-2026-w51",
+      "title": "Weekly 51",
+      "period": "2026-W51",
+      "startsOn": "2026-12-14",
+      "endsBefore": "2026-12-21",
+      "image": "images/weekly-2026-w51.jpg",
+      "pieces": 250,
+      "seed": 290006184,
+      "cut": "wavy",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "weekly-2026-w52",
+      "title": "Weekly 52",
+      "period": "2026-W52",
+      "startsOn": "2026-12-21",
+      "endsBefore": "2026-12-28",
+      "image": "images/weekly-2026-w52.jpg",
+      "pieces": 250,
+      "seed": 990122800,
       "cut": "wavy",
       "cutVersion": 1,
       "rotationQuarterTurns": 0

@@ -3,19 +3,6 @@
   "dateBasis": "device-local",
   "items": [
     {
-      "id": "monthly-2026-10",
-      "title": "October Monster",
-      "period": "2026-10",
-      "startsOn": "2026-10-01",
-      "endsBefore": "2026-11-01",
-      "image": "images/monthly-2026-10.jpg",
-      "pieces": 24,
-      "seed": 1020263000,
-      "cut": "classic",
-      "cutVersion": 1,
-      "rotationQuarterTurns": 0
-    },
-    {
       "id": "monthly-2026-11",
       "title": "November",
       "period": "2026-11",
@@ -24,6 +11,19 @@
       "image": "images/monthly-2026-11.jpg",
       "pieces": 3000,
       "seed": 1859528343,
+      "cut": "classic",
+      "cutVersion": 1,
+      "rotationQuarterTurns": 0
+    },
+    {
+      "id": "monthly-2026-12",
+      "title": "December",
+      "period": "2026-12",
+      "startsOn": "2026-12-01",
+      "endsBefore": "2027-01-01",
+      "image": "images/monthly-2026-12.jpg",
+      "pieces": 3000,
+      "seed": 400948524,
       "cut": "classic",
       "cutVersion": 1,
       "rotationQuarterTurns": 0
