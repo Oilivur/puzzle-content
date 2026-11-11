@@ -6,6 +6,7 @@
     "themes/estonia/theme.json",
     "themes/europe/theme.json",
     "themes/food/theme.json",
-    "themes/test/theme.json"
+    "themes/test/theme.json",
+    "themes/ancient/theme.json"
   ]
 }

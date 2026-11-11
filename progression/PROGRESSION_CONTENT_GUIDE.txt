@@ -1,0 +1,345 @@
+PUZZLE PARLOUR - ONLINE PROGRESSION CONTENT GUIDE
+=================================================
+
+This file describes the current online progression/theme JSON format.
+
+
+1. ONLINE FOLDER STRUCTURE
+--------------------------
+
+The app reads:
+
+progression/themes.json
+
+Example:
+
+{
+  "themes": [
+    "themes/estonia/theme.json",
+    "themes/japan/theme.json",
+    "themes/food/theme.json"
+  ]
+}
+
+Each theme can use a folder like:
+
+progression/
+  themes.json
+  themes/
+    estonia/
+      theme.json
+      master.png
+      levels/
+        01.jpg
+        02.jpg
+        03.jpg
+
+No separate preview images are needed.
+The app generates the pixelated previews from the HQ images after the theme pack is downloaded.
+A whole theme pack is downloaded at once: Master image + all level images.
+
+Image paths inside theme.json are relative to that theme.json file.
+
+Examples:
+  "image": "master.png"
+  "image": "levels/01.jpg"
+
+
+2. VALID CUT NAMES
+------------------
+
+Use these exact values in JSON:
+
+  "classic"
+  "wavy"
+  "u-knob"
+
+Example:
+
+  "cut": "u-knob"
+
+The parser ignores capitalization/outer spaces, but the lower-case values above should be used consistently.
+Old names such as "organic" and "angular" are NOT valid.
+
+Current cutVersion:
+
+  "cutVersion": 1
+
+cutVersion is optional and defaults to 1.
+Do not use a version higher than the app supports.
+
+
+3. THEME.JSON EXAMPLE
+---------------------
+
+{
+  "id": "estonia",
+  "title": "Estonia",
+  "master": {
+    "image": "master.png",
+    "pieces": 100,
+    "seed": 91604571,
+    "rewardSeed": 21045679,
+    "rotationQuarterTurns": 0,
+    "cut": "classic",
+    "cutVersion": 1
+  },
+  "levels": [
+    {
+      "id": "estonia_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 24,
+      "seed": 32224011,
+      "masterRewardPieces": 25,
+      "rotationQuarterTurns": 0,
+      "cut": "classic",
+      "cutVersion": 1
+    },
+    {
+      "id": "estonia_02",
+      "level": 2,
+      "image": "levels/02.jpg",
+      "pieces": 48,
+      "seed": 93334333,
+      "masterRewardPieces": 60,
+      "rotationQuarterTurns": 0,
+      "cut": "wavy",
+      "cutVersion": 1
+    },
+    {
+      "id": "estonia_03",
+      "level": 3,
+      "image": "levels/03.jpg",
+      "pieces": 100,
+      "seed": 43324013,
+      "masterRewardPieces": 15,
+      "rotationQuarterTurns": 0,
+      "cut": "u-knob",
+      "cutVersion": 1
+    }
+  ]
+}
+
+IMPORTANT:
+The sum of all masterRewardPieces MUST equal master.pieces exactly.
+
+Example above:
+  25 + 60 + 15 = 100
+  master.pieces = 100
+
+
+4. THEME FIELDS
+---------------
+
+id
+  Required.
+  Unique stable theme ID.
+  Example: "estonia"
+
+  Avoid changing this after publishing because progress is associated with IDs.
+
+
+title
+  Optional.
+  Display name for the theme.
+  If omitted, the theme ID is used.
+
+
+master
+  Required object describing the area's Master puzzle.
+
+
+levels
+  Required array containing the normal theme levels.
+
+
+5. MASTER FIELDS
+----------------
+
+image
+  Required.
+  Path to the Master HQ image relative to theme.json.
+
+
+pieces
+  Required.
+  Number of pieces in the Master puzzle.
+  Valid app range: 4 to 3000.
+
+
+seed
+  Optional but recommended.
+  Controls the deterministic jigsaw cut layout.
+  Keeping the same seed + cut + cutVersion keeps the same puzzle geometry.
+  If omitted, the app generates a deterministic seed from the theme ID.
+
+
+rewardSeed
+  Optional but recommended once a theme is published.
+
+  THIS DOES NOT CONTROL GATHER/SNAP TOOL REWARDS.
+
+  rewardSeed controls the order in which physical pieces of the Master puzzle
+  are awarded by completing normal levels.
+
+  The app creates the Master piece IDs:
+
+    0, 1, 2, 3 ... master.pieces - 1
+
+  rewardSeed shuffles those IDs into one stable random-looking order.
+  As levels are completed, masterRewardPieces takes the next IDs from that order.
+
+  This means:
+    - no Master piece is awarded twice
+    - every Master piece is eventually awarded
+    - the same rewardSeed always gives the same Master-piece reward order
+
+  Keep rewardSeed unchanged after publishing a theme.
+
+  If omitted, the app derives a deterministic reward seed from the theme ID.
+
+
+pieceOrder
+  Optional advanced alternative to rewardSeed.
+
+  This can explicitly specify the exact Master-piece reward order.
+  It must contain every piece ID exactly once.
+
+  For a 4-piece Master:
+
+    "pieceOrder": [2, 0, 3, 1]
+
+  Normally there is no reason to use this. rewardSeed is easier.
+
+
+rotationQuarterTurns
+  Optional. Defaults to 0.
+
+  Valid values:
+    0 = no rotation
+    1 = one 90-degree turn
+    2 = two 90-degree turns
+    3 = three 90-degree turns
+
+
+cut
+  Optional. Defaults to "classic".
+
+  Valid:
+    classic
+    wavy
+    u-knob
+
+
+cutVersion
+  Optional. Defaults to 1.
+  Current supported version: 1.
+
+
+6. LEVEL FIELDS
+---------------
+
+id
+  Required.
+  Unique stable level ID.
+  Example: "estonia_01"
+
+
+level
+  Optional but recommended.
+  Number shown/order used for the level.
+  If omitted, its array position + 1 is used.
+
+
+image
+  Required.
+  Path to the HQ level image relative to theme.json.
+  Example: "levels/01.jpg"
+
+
+pieces
+  Required.
+  Exact puzzle piece count.
+  Valid app range: 4 to 3000.
+
+
+seed
+  Optional but recommended.
+  Controls deterministic puzzle geometry.
+  If omitted, the app derives a deterministic seed from theme ID + level ID.
+
+
+masterRewardPieces
+  Required and must be greater than 0.
+
+  This is how many pieces of the theme's Master puzzle are revealed/earned
+  when this level is completed for the first time.
+
+  It does NOT mean Gather/Snap rewards.
+
+  All levels' masterRewardPieces values must add up exactly to master.pieces.
+
+
+rotationQuarterTurns
+  Optional. Defaults to 0.
+  Valid: 0, 1, 2, 3.
+
+
+cut
+  Optional. Defaults to "classic".
+  Valid: classic, wavy, u-knob.
+
+
+cutVersion
+  Optional. Defaults to 1.
+  Current supported version: 1.
+
+
+7. POWERUP REWARDS
+------------------
+
+Normal first-completion tool rewards are based on the puzzle's actual piece count.
+Intermediate piece counts are interpolated between these values.
+
+Pieces      Gather      Snap
+--------------------------------
+24          3           0
+48          6           1
+100         10          3
+250         22          5
+500         30          10
+1000        50          20
+2000        100         40
+3000        200         60
+
+Progression levels:
+  First completion gives the normal piece-count Gather/Snap reward.
+  It also gives masterRewardPieces toward the area's Master puzzle.
+
+Daily / Weekly / Monthly:
+  First completion gives the normal piece-count Gather/Snap reward.
+
+Own puzzles:
+  Use the same piece-count reward system according to the current app economy.
+
+Theme Master / Area completion:
+  CURRENT APP BEHAVIOR: no normal Gather/Snap reward is currently granted.
+  This is still being finalized separately.
+
+
+8. IMPORTANT CONTENT RULES
+--------------------------
+
+- Theme IDs should be unique and stable.
+- Level IDs should be unique and stable.
+- Use only supported cut names.
+- Use piece counts from 4 to 3000.
+- Keep seeds stable after publishing if you want the puzzle to stay identical.
+- Keep rewardSeed stable after publishing so Master rewards stay consistent.
+- Every masterRewardPieces value must be > 0.
+- Sum of all level masterRewardPieces MUST equal master.pieces exactly.
+- Full HQ images are downloaded as one complete theme pack.
+- Pixelated previews are generated in the app; do not create separate preview files.
+- Trophy thumbnails are generated locally by the app after completion; do not create trophy files online.
+

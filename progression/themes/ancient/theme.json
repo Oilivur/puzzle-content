@@ -1,0 +1,77 @@
+{
+  "id": "ancient",
+  "title": "Ancient",
+  "master": {
+    "image": "master.jpg",
+    "pieces": 100,
+    "seed": 61323741,
+    "rewardSeed": 21937999,
+    "rotationQuarterTurns": 0,
+    "cut": "wavy"
+  },
+  "levels": [
+    {
+      "id": "ancient_01",
+      "level": 1,
+      "image": "levels/01.jpg",
+      "pieces": 24,
+      "seed": 43324044,
+      "masterRewardPieces": 15,
+      "cut": "wavy"
+    },
+    {
+      "id": "ancient_02",
+      "level": 2,
+      "image": "levels/02.jpg",
+      "pieces": 48,
+      "seed": 13334012,
+      "masterRewardPieces": 15,
+      "cut": "classic"
+    },
+    {
+      "id": "ancient_03",
+      "level": 3,
+      "image": "levels/03.jpg",
+      "pieces": 100,
+      "seed": 45624013,
+      "masterRewardPieces": 15,
+      "cut": "classic"
+    },
+    {
+      "id": "ancient_04",
+      "level": 4,
+      "image": "levels/04.jpg",
+      "pieces": 250,
+      "seed": 12234014,
+      "masterRewardPieces": 15,
+      "cut": "u-knob"
+    },
+    {
+      "id": "ancient_05",
+      "level": 5,
+      "image": "levels/05.jpg",
+      "pieces": 250,
+      "seed": 68234014,
+      "masterRewardPieces": 15,
+      "cut": "wavy"
+    },
+    {
+      "id": "ancient_06",
+      "level": 6,
+      "image": "levels/06.jpg",
+      "pieces": 250,
+      "seed": 33332214,
+      "masterRewardPieces": 15,
+      "cut": "classic"
+    },
+    {
+      "id": "ancient_07",
+      "level": 7,
+      "image": "levels/07.jpg",
+      "pieces": 250,
+      "seed": 55534014,
+      "masterRewardPieces": 10,
+      "cut": "u-knob"
+    }
+  ]
+}
